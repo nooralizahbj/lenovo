@@ -210,20 +210,23 @@
             grid-template-rows: 1fr 1fr;
         }
     }
-    .page-node-type-solution div[role=main] .btn-cta-button.primary:after {
+    .play-button {
+        width: 8%; 
+        cursor: pointer;
+    }
+    /* .page-node-type-solution div[role=main] .btn-cta-button.primary:after {
         font-size: 16px;
         padding-left: 4px;
         vertical-align: -1px;
         font-size: 16px;
         line-height: 24px;
         content: "\00A0 >";
-        /* padding-left: 0; */
         font-family: inherit !important;
         top: 0;
         display: inline-block;
         width: 24px;
         position: relative;
-    }
+    } */
     .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -242,6 +245,11 @@
         .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
             grid-template-columns: unset;
         }
+        .play-button {
+            width: 25%; 
+            cursor: pointer;
+            margin-top: 50%;
+        }
         .block--type--header .header-text.sub-banner, .block-inline-blockheader .header-text.sub-banner {
             padding: 4rem 1rem !important;
         }
@@ -251,6 +259,10 @@
         }
         .block--type--header.header-layout-full-bleed .header-content.new, .block-inline-blockheader.header-layout-full-bleed .header-content.new {
             margin-top: unset !important;
+        }
+        .block--type--header.header-layout-full-bleed .header-content.play, .block-inline-blockheader.header-layout-full-bleed .header-content.play {
+            margin: unset;
+            text-align: center;
         }
     }
     .block--type--header .header-text .new .header-sub-title .field--item, .block-inline-blockheader .header-text .new .header-sub-title .field--item {
@@ -482,41 +494,8 @@
                                                         </style>
                                                         <div class="header-container">
                                                             <div class="header-text">
-                                                                <div class="gradient-overlay"></div>
-                                                                <div class="header-left">
-                                                                    <div class="header-content align-middle">
-                                                                        <div class="header-title">
-                                                                            
-                                                                            <div class="field field--name-field-title field--type-string field--label-hidden field--item">
-                                                                                <strong>Create the ultimate work habits</strong>
-                                                                            </div>
-                                                                            
-                                                                        </div>
-                                                                        <div class="header-sub-title">
-                                                                            
-                                                                            <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
-                                                                                You have the vision. We bring it to live.
-                                                                            </div>
-                                                                            
-                                                                        </div>
-                                                                        <div class="header-cta">
-                                                                            
-                                                                            <div class="field field--name-field-cta-items field--type-entity-reference-revisions field--label-hidden field--items">
-                                                                                <div class="field field--name-field-cta-items field--type-entity-reference-revisions field--label-hidden field--item">
-                                                                                    
-                                                                                    <section class="block--type--cta block block-block-content block-block-content058503d0-57a8-4d40-b6f7-2c9cad9253ca clearfix">
-                                                                                        <div class="inner">
-                                                                                            
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="https://garuda1st.id/assets/lenovo/home.mp4" class="btn-cta-button primary white" target="_blank">Watch here</a>
-                                                                                            
-                                                                                        </div>
-                                                                                    </section>
-                                                                                    
-                                                                                </div>
-                                                                            </div>
-                                                                            
-                                                                        </div>
-                                                                    </div>
+                                                                <div class="header-content align-middle play">
+                                                                    <img data-fancybox data-width="640" data-height="360" href="https://garuda1st.id/assets/lenovo/home.mp4" target="_blank" src="assets/icons/play-button.svg" class="play-button" alt="">
                                                                 </div>
                                                                 
                                                             </div>
