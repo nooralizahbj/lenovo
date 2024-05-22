@@ -42,8 +42,8 @@
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf' rel='stylesheet' type='text/css'>
-    <link href='assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf' rel='stylesheet' type='text/css'>
+    <link href='../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf' rel='stylesheet' type='text/css'>
+    <link href='../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf' rel='stylesheet' type='text/css'>
     <meta name="siteRoot" content="https://techtoday.lenovo.com" />
     <meta name="pagePath" content="https://techtoday.lenovo.com" />
     <meta name="pageBreadcrumb" content="Lenovo Tech Today" />
@@ -53,18 +53,18 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <link rel="icon" href="https://techtoday.lenovo.com/themes/custom/lenovod8/favicon.ico" type="image/vnd.microsoft.icon" />
     
-    <title>Lenovo Microsite | Hybrid Cloud</title>
-    <link rel="stylesheet" media="all" href="assets/css/css_USaT2OcBEX4Ufgsnl7mKJxNTzvwVrM2SW_lQ8aMhsGQ.css" />
-    <link rel="stylesheet" media="all" href="assets/css/css_glR0vJKAmiFBcNc4moKPGLPdorarRmHZsXTFaN5JBqQ.css" />
-    <link rel="stylesheet" media="all" href="assets/css/css_Vc1bTI8t0IINT7hjH0ksPcE-PN9CqDEFVZvwHNb2B7g.css" />
-    <link rel="stylesheet" media="all" href="assets/css/css_0X_vDRPjNZcX_4fOEJVHHCZy4pdP5QgKvcRzrx1mlfs.css" />
-    <link rel="stylesheet" href="assets/css/css_rqgiEQO1mWDbfLIB6u8gAceeTfDD79-Gt-fAizlrnaU.css">
-    <script data-cfasync="false" src="assets/js/jquery.min.js"></script>
+    <title>Lenovo Microsite</title>
+    <link rel="stylesheet" media="all" href="../assets/css/css_USaT2OcBEX4Ufgsnl7mKJxNTzvwVrM2SW_lQ8aMhsGQ.css" />
+    <link rel="stylesheet" media="all" href="../assets/css/css_glR0vJKAmiFBcNc4moKPGLPdorarRmHZsXTFaN5JBqQ.css" />
+    <link rel="stylesheet" media="all" href="../assets/css/css_Vc1bTI8t0IINT7hjH0ksPcE-PN9CqDEFVZvwHNb2B7g.css" />
+    <link rel="stylesheet" media="all" href="../assets/css/css_0X_vDRPjNZcX_4fOEJVHHCZy4pdP5QgKvcRzrx1mlfs.css" />
+    <link rel="stylesheet" href="../assets/css/css_rqgiEQO1mWDbfLIB6u8gAceeTfDD79-Gt-fAizlrnaU.css">
+    <script data-cfasync="false" src="../assets/js/jquery.min.js"></script>
     <script data-cfasync="false" src="https://techtoday.lenovo.com/core/misc/drupalSettingsLoader.js?v=10.2.3"></script>
-    <script src="assets/js/js_O6sqhRooAhVcwvCv6VguW-Tq6h372vgMI7cNg89BLMo.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
-    <script src="assets/js/jquery-ui.min.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
-    <script src="assets/js/jquery.easing.min.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
-    <script src="assets/js/js_5NC9L36wJxZtWduTwPElWzS_mMUTgoeHO8PULNgem8A.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
+    <script src="../assets/js/js_O6sqhRooAhVcwvCv6VguW-Tq6h372vgMI7cNg89BLMo.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
+    <script src="../assets/js/jquery-ui.min.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
+    <script src="../assets/js/jquery.easing.min.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
+    <script src="../assets/js/js_5NC9L36wJxZtWduTwPElWzS_mMUTgoeHO8PULNgem8A.js" type="4a4d342f65ec7b6b48cf14dd-text/javascript"></script>
     <script data-cfasync="false" type="text/javascript">
         if (!window.lmd) { 
             window.lmd = {};
@@ -88,7 +88,7 @@
             $ = jQuery;
         }
     </script>
-    <script data-cfasync="false" type="text/javascript" src="https://techtoday.lenovo.com/assets.adobedtm.com/launch-ENbd80d0d08563407f8765e66b51ce822a.min.js"></script><style>
+    <style>
         header#navbar-techtoday.enhanced-techtoday > div[id^="popup"] {
             display: none !important;
         }
@@ -176,64 +176,84 @@
                 grid-template-rows: 1fr 1fr;
             }
         }
-        .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            padding: 4rem 4rem;
-            background: linear-gradient(to right, #6E2025, #3E165A);
+        .play-button {
+            width: 8%; 
+            cursor: pointer;
         }
-        .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items .lbbc-mosaic--item-1 {
-            margin: 4rem;
-        }
-        .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items.rows {
-            /* grid-template-rows: 2fr !important; */
-        }
-        .header-103427 .inner {
-            /* padding: 2rem 4rem; */
-            background: linear-gradient(to right, #6E2025, #3E165A);
-        }
-        @media screen and (max-width: 996px) {
-            .header-103427 .inner {
-                /* padding: 1rem; */
-            }
-            .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
-                grid-template-columns: unset;
-                padding: unset;
-            }
-            .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items .lbbc-mosaic--item-1 {
-                margin: 3rem 3rem 0rem 3rem;
-            }
-            .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items:last-child {
-                margin-bottom: 3rem;
-            }
-        }
-        .page-node-type-solution div[role=main] .btn-cta-button.primary:after {
+        /* .page-node-type-solution div[role=main] .btn-cta-button.primary:after {
             font-size: 16px;
             padding-left: 4px;
             vertical-align: -1px;
             font-size: 16px;
             line-height: 24px;
             content: "\00A0 >";
-            /* padding-left: 0; */
             font-family: inherit !important;
             top: 0;
             display: inline-block;
             width: 24px;
             position: relative;
+        } */
+        .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
         }
-        .block-item-bg {
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            -webkit-transition: all 0.4s ease-in-out;
-            -moz-transition: all 0.4s ease-in-out;
-            transition: all 0.4s ease-in-out;
-            width: 100%;
-            max-height: 100%;
+        .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items.rows {
+            grid-template-rows: 2fr !important;
+        }
+        .header-103427 .inner {
+            padding: 2rem 4rem;
+            background: linear-gradient(to right, #6E2025, #3E165A);
+        }
+        @media screen and (max-width: 996px) {
+            .header-103427 .inner {
+                padding: 2rem 1rem !important;
+            }
+            .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
+                grid-template-columns: unset;
+            }
+            .play-button {
+                width: 25%; 
+                cursor: pointer;
+                margin-top: 50%;
+            }
+            .block--type--header .header-text.sub-banner, .block-inline-blockheader .header-text.sub-banner {
+                padding: 4rem 1rem !important;
+            }
+            .block--type--header .header-text .new .header-title .field--item, .block-inline-blockheader .header-text .new .header-title .field--item {
+                font-size: 48px !important;
+                line-height: 1 !important;
+            }
+            .block--type--header.header-layout-full-bleed .header-content.new, .block-inline-blockheader.header-layout-full-bleed .header-content.new {
+                margin-top: unset !important;
+            }
+            .block--type--header.header-layout-full-bleed .header-content.play, .block-inline-blockheader.header-layout-full-bleed .header-content.play {
+                margin: unset;
+                text-align: center;
+            }
+        }
+        .block--type--header .header-text .new .header-sub-title .field--item, .block-inline-blockheader .header-text .new .header-sub-title .field--item {
+            max-width: 80%;
+            text-align: center;
+            margin: auto;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .block--type--header .header-text .new .header-title .field--item, .block-inline-blockheader .header-text .new .header-title .field--item {
+            max-width: 100%;
+            text-align: center;
+        }
+        .block--type--header .header-text.sub-banner, .block-inline-blockheader .header-text.sub-banner {
+            background-position: right center;
+            min-height: auto;
+            padding: 48px 48px 48px 119px;
+        }
+        .block--type--header .header-text .new .header-title .field--item, .block-inline-blockheader .header-text .new .header-title .field--item {
+            font-size: 72px;
+            line-height: 2;
+            letter-spacing: unset;
+        }
+        .block--type--header .header-text .new .header-content.new, .block-inline-blockheader .header-text .new .header-content.new {
+            min-height: 300px;
         }
         .fancybox-content {
             height: calc(100% - 88px) !important;
@@ -251,7 +271,6 @@
             margin-top: 0;
             max-width: 340px;
         }
-        
     </style>
     
     
@@ -319,7 +338,7 @@
                                     <li>
                                         
                                         <a href="index.html">
-                                            Home
+                                            主页
                                             
                                             <div class="lenovo-chevron"></div>
                                         </a>
@@ -327,19 +346,8 @@
                                     
                                     <li>
                                         
-                                        <a href="digital-workspace.html">
-                                            Digital Workspace
-                                            
-                                            <div class="lenovo-chevron"></div>
-                                        </a>
-                                    </li>
-                                    
-                                    
-                                    
-                                    <li>
-                                        
-                                        <a href="professional-service.html">
-                                            Professional Service
+                                        <a href="#content-page">
+                                            数字工作空间
                                             
                                             <div class="lenovo-chevron"></div>
                                         </a>
@@ -349,8 +357,8 @@
                                     
                                     <li>
                                         
-                                        <a href="hybrid-cloud.html">
-                                            Hybrid Cloud
+                                        <a href="#content-page">
+                                            专业服务
                                             
                                             <div class="lenovo-chevron"></div>
                                         </a>
@@ -360,8 +368,8 @@
                                     
                                     <li>
                                         
-                                        <a href="sustainability.html">
-                                            Sustainability
+                                        <a href="#content-page">
+                                            混合云
                                             
                                             <div class="lenovo-chevron"></div>
                                         </a>
@@ -371,8 +379,19 @@
                                     
                                     <li>
                                         
-                                        <a href="manufacturing.html">
-                                            Manufacturing
+                                        <a href="#content-page">
+                                            可持续性
+                                            
+                                            <div class="lenovo-chevron"></div>
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        <a href="#content-page">
+                                            制造业
                                             
                                             <div class="lenovo-chevron"></div>
                                         </a>
@@ -381,6 +400,7 @@
                                     
                                     
                                     <li class="level-0 content-menu dropdown" data-ttnav-level=0 data-ttnav-type="dropdown" data-ttnav-layout="right" data-ttnav-first-right="1">
+                                        
                                         
                                     </li>
                                     
@@ -394,8 +414,8 @@
                                                 <li class="level-1 level-2-area mobile-back">
                                                     <a href="#" class="mobile-back">Back</a>
                                                 </li>
-                                                <li><a href="#" hreflang="id-id" class="is-active">United States (English)</a></li>
-                                                <li><a href="ch/index.html" hreflang="zh-tw"> China (Simplified Chinese)</a></li>
+                                                <li><a href="../index.html" hreflang="en-en">United States (English)</a></li>
+                                                <li><a href="#" hreflang="ch-ch" class="is-active"> China (Simplified Chinese)</a></li>
                                             </ul>
                                         </div>
                                         
@@ -438,50 +458,96 @@
                                         <div class="inner">
                                             
                                             <div  class="layout__region layout__region--content">
-                                                <section class="block--type--header header-layout-full-bleed text-color-white logo-placement-bottom-right block block-layout-builder block-inline-blockheader header-103427 clearfix">
+                                                
+                                                <section class="block--type--header header-layout-full-bleed text-color-white logo-placement-bottom-right block block-layout-builder block-inline-blockheader header-103428 clearfix">
                                                     <div class="inner">
-                                                        <link rel="preload" as="image" href="assets/image/4.png" media="(max-width: 991px)">
+                                                        <link rel="preload" as="image" href="../assets/image/banner-top.png" media="(max-width: 991px)">
                                                         <style>
-                                                            .header-103427 .header-text {
-                                                                background-image: url('assets/image/4.png');
+                                                            .header-103428 .header-text {
+                                                                background-image: url('../assets/image/banner-top.png');
                                                             }
-                                                            .header-103427 .header-text .gradient-overlay {
+                                                            .header-103428 .header-text .gradient-overlay {
                                                                 /* opacity: 0.00; */
                                                             }
                                                             @media screen and (min-width: 992px) {
-                                                                .header-103427 .header-text {
-                                                                    background-image: url('assets/image/4.png');
+                                                                .header-103428 .header-text {
+                                                                    background-image: url('../assets/image/banner-top.png');
                                                                 }
                                                             }
                                                         </style>
                                                         <div class="header-container">
                                                             <div class="header-text">
-                                                                <div class="gradient-overlay"></div>
-                                                                <div class="header-left">
-                                                                    <div class="header-content align-middle">
-                                                                        <div class="header-title">
-                                                                            
-                                                                            <div class="field field--name-field-title field--type-string field--label-hidden field--item">
-                                                                                <strong>Lenovo TruScale</strong>
-                                                                            </div>
-                                                                            
+                                                                <div class="header-content align-middle play">
+                                                                    <img data-fancybox data-width="640" data-height="360" href="../assets/video/home.mp4" target="_blank" src="../assets/icons/play-button.svg" class="play-button" alt="">
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="block--type--header header-layout-full-bleed text-color-white logo-placement-bottom-right block block-layout-builder block-inline-blockheader header-103427 clearfix">
+                                                    <div class="inner">
+                                                        <div class="header-container">
+                                                            <div class="header-text sub-banner">
+                                                                <div class="header-content align-middle new">
+                                                                    <div class="header-title">
+                                                                        
+                                                                        <div class="field field--name-field-title field--type-string field--label-hidden field--item">
+                                                                            <strong>Smarter AI for All</strong>
                                                                         </div>
-                                                                        <div class="header-sub-title">
-                                                                            
-                                                                            <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
-                                                                                Bold, integrated as a service solutions to ignite your business strategy.
-                                                                            </div>
-                                                                            
+                                                                        
+                                                                    </div>
+                                                                    <div class="header-sub-title">
+                                                                        
+                                                                        <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
+                                                                            Explore the possibilities as Lenovo takes AI from concept to reality and empowers business to efficiently develop and deploy new AI use cases that drive innovation, digitalization, and growth.
                                                                         </div>
-                                                                        <div class="header-cta">
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                
+                                                <section class="block--type--mosaic block block--type--mosaic--default block-layout-builder block-inline-blockmosaic lbbc-row-full-bleed clearfix" id="content-page">
+                                                    <div class="inner">
+                                                        
+                                                        <div class="field field--name-field-mosaic-item field--type-entity-reference-revisions field--label-hidden field--items field--lbbc-mosaic-items">
+                                                            
+                                                            <div class="field--lbbc-mosaic-items">
+                                                                <div class="field--item lbbc-mosaic--item lbbc-mosaic--item-1">
+                                                                    <link rel="preload" as="image" href="../assets/image/digital_workspace.webp" media="(max-width: 991px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/digital_workspace.webp" media="(min-width: 992px)">
+                                                                    <style>
+                                                                        @media (max-width: 991px) {
+                                                                            .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa1-bg {
+                                                                                background-image: url(../assets/image/digital_workspace.webp);
+                                                                            }
+                                                                        }
+                                                                        @media (min-width: 992px) {
+                                                                            .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa1-bg {
+                                                                                background-image: url(../assets/image/digital_workspace.webp);
+                                                                            }
+                                                                        }
+                                                                    </style>
+                                                                    <div class="mosaic-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa1-bg"></div>
+                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa1 clearfix" data-nav-label="数字工作空间">
+                                                                        <div class="inner">
+                                                                            <h3 class="field--name--title">AI驱动的</h3>
+                                                                            <h2 class="field--name--title">数字工作空间</h2>
+                                                                            <!-- <div class="field field--name-field-mosaic-description field--type-string-long field--label-hidden field--item">
+                                                                                Buka peluang untuk semua dengan solusi tempat kerja digital kami.
+                                                                            </div> -->
                                                                             
                                                                             <div class="field field--name-field-cta-items field--type-entity-reference-revisions field--label-hidden field--items">
                                                                                 <div class="field field--name-field-cta-items field--type-entity-reference-revisions field--label-hidden field--item">
                                                                                     
-                                                                                    <section class="block--type--cta block block-block-content block-block-content058503d0-57a8-4d40-b6f7-2c9cad9253ca clearfix">
+                                                                                    <section class="block--type--cta block block-block-content block-block-content6816f825-6b9f-47a9-b280-08f920b98684 clearfix">
                                                                                         <div class="inner">
                                                                                             
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="assets/video/hybrid-cloud.mp4" class="btn-cta-button primary white" target="_blank">Watch here</a>
+                                                                                            <a href="digital-workspace.html" class="btn-cta-button tertiary white">观看视频</a>
                                                                                             
                                                                                         </div>
                                                                                     </section>
@@ -491,31 +557,20 @@
                                                                             
                                                                         </div>
                                                                     </div>
+                                                                    
                                                                 </div>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                
-                                                <section class="block--type--mosaic block block--type--mosaic--default block-layout-builder block-inline-blockmosaic lbbc-row-full-bleed clearfix">
-                                                    <div class="inner">
-                                                        
-                                                        <div class="field field--name-field-mosaic-item field--type-entity-reference-revisions field--label-hidden field--items field--lbbc-mosaic-items">
-                                                            
-                                                            <div class="field--lbbc-mosaic-items">
                                                                 <div class="field--item lbbc-mosaic--item lbbc-mosaic--item-1">
-                                                                    <link rel="preload" as="image" href="assets/image/6.png" media="(max-width: 991px)">
-                                                                    <link rel="preload" as="image" href="assets/image/6.png" media="(min-width: 992px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/professional_service.webp" media="(max-width: 991px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/professional_service.webp" media="(min-width: 992px)">
                                                                     <style>
                                                                         @media (max-width: 991px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2-bg {
-                                                                                background-image: url(assets/image/6.png);
+                                                                                background-image: url(../assets/image/professional_service.webp);
                                                                             }
                                                                         }
                                                                         @media (min-width: 992px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2-bg {
-                                                                                background-image: url(assets/image/6.png);
+                                                                                background-image: url(../assets/image/professional_service.webp);
                                                                             }
                                                                         }
                                                                         .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2-bg::before {
@@ -529,11 +584,11 @@
                                                                             width: 100%;
                                                                         }
                                                                     </style>
-                                                                    <div class="block-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2-bg"></div>
-                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2 clearfix" data-nav-label="Professional Service">
+                                                                    <div class="mosaic-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2-bg"></div>
+                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2 clearfix" data-nav-label="专业服务">
                                                                         <div class="inner">
-                                                                            <h3 class="field--name--title">AI Powered</h3>
-                                                                            <h2 class="field--name--title">Digital Workspace</h2>
+                                                                            <h3 class="field--name--title">AI驱动的</h3>
+                                                                            <h2 class="field--name--title">专业服务</h2>
                                                                             <!-- <div class="field field--name-field-mosaic-description field--type-string-long field--label-hidden field--item">
                                                                                 Buka peluang untuk semua dengan solusi tempat kerja digital kami.
                                                                             </div> -->
@@ -544,7 +599,7 @@
                                                                                     <section class="block--type--cta block block-block-content block-block-content6816f825-6b9f-47a9-b280-08f920b98684 clearfix">
                                                                                         <div class="inner">
                                                                                             
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="assets/video/digital-workspace.mp4" class="btn-cta-button tertiary white">Watch here</a>
+                                                                                            <a href="professional-service.html" class="btn-cta-button tertiary white">观看视频</a>
                                                                                             
                                                                                         </div>
                                                                                     </section>
@@ -556,18 +611,21 @@
                                                                     </div>
                                                                     
                                                                 </div>
+                                                            </div>
+                                                            
+                                                            <div class="field--lbbc-mosaic-items rows">
                                                                 <div class="field--item lbbc-mosaic--item lbbc-mosaic--item-1">
-                                                                    <link rel="preload" as="image" href="assets/image/5.png" media="(max-width: 991px)">
-                                                                    <link rel="preload" as="image" href="assets/image/5.png" media="(min-width: 992px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/6.png" media="(max-width: 991px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/6.png" media="(min-width: 992px)">
                                                                     <style>
                                                                         @media (max-width: 991px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3-bg {
-                                                                                background-image: url(assets/image/5.png);
+                                                                                background-image: url(../assets/image/6.png);
                                                                             }
                                                                         }
                                                                         @media (min-width: 992px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3-bg {
-                                                                                background-image: url(assets/image/5.png);
+                                                                                background-image: url(../assets/image/6.png);
                                                                             }
                                                                         }
                                                                         .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3-bg::before {
@@ -581,11 +639,11 @@
                                                                             width: 100%;
                                                                         }
                                                                     </style>
-                                                                    <div class="block-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3-bg"></div>
-                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa2 clearfix" data-nav-label="Professional Service">
+                                                                    <div class="mosaic-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3-bg"></div>
+                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa3 clearfix" data-nav-label="混合云">
                                                                         <div class="inner">
-                                                                            <h3 class="field--name--title">AI Powered</h3>
-                                                                            <h2 class="field--name--title">Professional Service</h2>
+                                                                            <h3 class="field--name--title">AI驱动的</h3>
+                                                                            <h2 class="field--name--title">混合云</h2>
                                                                             <!-- <div class="field field--name-field-mosaic-description field--type-string-long field--label-hidden field--item">
                                                                                 Buka peluang untuk semua dengan solusi tempat kerja digital kami.
                                                                             </div> -->
@@ -596,7 +654,7 @@
                                                                                     <section class="block--type--cta block block-block-content block-block-content6816f825-6b9f-47a9-b280-08f920b98684 clearfix">
                                                                                         <div class="inner">
                                                                                             
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="assets/video/professional-services.mp4" class="btn-cta-button tertiary white">Watch here</a>
+                                                                                            <a href="hybrid-cloud.html" class="btn-cta-button tertiary white">观看视频</a>
                                                                                             
                                                                                         </div>
                                                                                     </section>
@@ -612,17 +670,17 @@
                                                             
                                                             <div class="field--lbbc-mosaic-items">
                                                                 <div class="field--item lbbc-mosaic--item lbbc-mosaic--item-1">
-                                                                    <link rel="preload" as="image" href="assets/image/3.png" media="(max-width: 991px)">
-                                                                    <link rel="preload" as="image" href="assets/image/3.png" media="(min-width: 992px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/sustainability.webp" media="(max-width: 991px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/sustainability.webp" media="(min-width: 992px)">
                                                                     <style>
                                                                         @media (max-width: 991px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4-bg {
-                                                                                background-image: url(assets/image/3.png);
+                                                                                background-image: url(../assets/image/sustainability.webp);
                                                                             }
                                                                         }
                                                                         @media (min-width: 992px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4-bg {
-                                                                                background-image: url(assets/image/3.png);
+                                                                                background-image: url(../assets/image/sustainability.webp);
                                                                             }
                                                                         }
                                                                         .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4-bg::before {
@@ -636,11 +694,11 @@
                                                                             width: 100%;
                                                                         }
                                                                     </style>
-                                                                    <div class="block-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4-bg"></div>
-                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4 clearfix" data-nav-label="Sustainability">
+                                                                    <div class="mosaic-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4-bg"></div>
+                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa4 clearfix" data-nav-label="可持续性">
                                                                         <div class="inner">
-                                                                            <h3 class="field--name--title">AI Powered</h3>
-                                                                            <h2 class="field--name--title">Sustainability</h2>
+                                                                            <h3 class="field--name--title">AI驱动的</h3>
+                                                                            <h2 class="field--name--title">可持续性</h2>
                                                                             <!-- <div class="field field--name-field-mosaic-description field--type-string-long field--label-hidden field--item">
                                                                                 Buka peluang untuk semua dengan solusi tempat kerja digital kami.
                                                                             </div> -->
@@ -651,7 +709,7 @@
                                                                                     <section class="block--type--cta block block-block-content block-block-content6816f825-6b9f-47a9-b280-08f920b98684 clearfix">
                                                                                         <div class="inner">
                                                                                             
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="assets/video/sustainability.mp4" class="btn-cta-button tertiary white">Watch here</a>
+                                                                                            <a href="sustainability.html" class="btn-cta-button tertiary white">观看视频</a>
                                                                                             
                                                                                         </div>
                                                                                     </section>
@@ -664,17 +722,17 @@
                                                                     
                                                                 </div>
                                                                 <div class="field--item lbbc-mosaic--item lbbc-mosaic--item-1">
-                                                                    <link rel="preload" as="image" href="assets/image/1.png" media="(max-width: 991px)">
-                                                                    <link rel="preload" as="image" href="assets/image/1.png" media="(min-width: 992px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/manufacturing.webp" media="(max-width: 991px)">
+                                                                    <link rel="preload" as="image" href="../assets/image/manufacturing.webp" media="(min-width: 992px)">
                                                                     <style>
                                                                         @media (max-width: 991px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5-bg {
-                                                                                background-image: url(assets/image/1.png);
+                                                                                background-image: url(../assets/image/manufacturing.webp);
                                                                             }
                                                                         }
                                                                         @media (min-width: 992px) {
                                                                             .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5-bg {
-                                                                                background-image: url(assets/image/1.png);
+                                                                                background-image: url(../assets/image/manufacturing.webp);
                                                                             }
                                                                         }
                                                                         .block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5-bg::before {
@@ -688,11 +746,11 @@
                                                                             width: 100%;
                                                                         }
                                                                     </style>
-                                                                    <div class="block-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5-bg"></div>
-                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5 clearfix" data-nav-label="Manufacturing">
+                                                                    <div class="mosaic-item-bg block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5-bg"></div>
+                                                                    <div class="block--type--mosaic-item block block-block-content block-block-contente3086f0c-b61f-4eff-9df5-dd44cbe25aa5 clearfix" data-nav-label="制造业">
                                                                         <div class="inner">
-                                                                            <h3 class="field--name--title">AI Powered</h3>
-                                                                            <h2 class="field--name--title">Manufacturing</h2>
+                                                                            <h3 class="field--name--title">AI驱动的</h3>
+                                                                            <h2 class="field--name--title">制造业</h2>
                                                                             <!-- <div class="field field--name-field-mosaic-description field--type-string-long field--label-hidden field--item">
                                                                                 Buka peluang untuk semua dengan solusi tempat kerja digital kami.
                                                                             </div> -->
@@ -703,7 +761,7 @@
                                                                                     <section class="block--type--cta block block-block-content block-block-content6816f825-6b9f-47a9-b280-08f920b98684 clearfix">
                                                                                         <div class="inner">
                                                                                             
-                                                                                            <a data-fancybox data-width="640" data-height="360" href="assets/video/manufacturing.mp4" class="btn-cta-button tertiary white">Watch here</a>
+                                                                                            <a href="manufacturing.html" class="btn-cta-button tertiary white">观看视频</a>
                                                                                             
                                                                                         </div>
                                                                                     </section>
@@ -726,9 +784,6 @@
                                             
                                         </div>
                                     </div>
-                                    
-                                    
-                                    
                                     
                                 </div>
                             </div>
@@ -801,7 +856,7 @@
                 <script>
                     $('[data-fancybox]').fancybox();
                 </script>
-                <script src="assets/js/rocket-loader.min.js" data-cf-settings="4a4d342f65ec7b6b48cf14dd-|49" defer></script>
+                <script src="../assets/js/rocket-loader.min.js" data-cf-settings="4a4d342f65ec7b6b48cf14dd-|49" defer></script>
             </body>
             </html>
             
