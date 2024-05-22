@@ -200,16 +200,28 @@
         .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items.rows {
             grid-template-rows: 2fr !important;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            background: linear-gradient(to bottom, #6E2025, #3E165A);
+        }
         .header-103427 .inner {
-            padding: 2rem 4rem;
-            background: linear-gradient(to right, #6E2025, #3E165A);
+            padding: unset;
+            /* background: linear-gradient(to right, #6E2025, #3E165A); */
+        }
+        .grid img {
+            object-fit: cover;
+            height: 100%;
         }
         @media screen and (max-width: 996px) {
             .header-103427 .inner {
-                padding: 2rem 1rem !important;
+                /* padding: 2rem 1rem !important; */
             }
             .field.field--name-field-mosaic-item.field--type-entity-reference-revisions.field--label-hidden.field--items.field--lbbc-mosaic-items {
                 grid-template-columns: unset;
+            }
+            .grid {
+                grid-template-columns: 1fr;
             }
             .play-button {
                 width: 25%; 
@@ -232,8 +244,8 @@
             }
         }
         .block--type--header .header-text .new .header-sub-title .field--item, .block-inline-blockheader .header-text .new .header-sub-title .field--item {
-            max-width: 80%;
-            text-align: center;
+            max-width: 100%;
+            /* text-align: center; */
             margin: auto;
             font-size: 24px;
             line-height: 1.5;
@@ -245,7 +257,7 @@
         .block--type--header .header-text.sub-banner, .block-inline-blockheader .header-text.sub-banner {
             background-position: right center;
             min-height: auto;
-            padding: 48px 48px 48px 119px;
+            padding: 48px;
         }
         .block--type--header .header-text .new .header-title .field--item, .block-inline-blockheader .header-text .new .header-title .field--item {
             font-size: 72px;
@@ -270,9 +282,15 @@
             margin-bottom: 16px;
             margin-top: 0;
             max-width: 340px;
+            max-width: 340px;
             background: red;
             width: 65%;
             padding-left: 3rem;
+        }
+        .grid-text-right {
+            display: block;
+            margin: auto;
+            /* background: linear-gradient(to right, #6E2025, #3E165A); */
         }
     </style>
     
@@ -490,25 +508,33 @@
                                                 </section>
                                                 <section class="block--type--header header-layout-full-bleed text-color-white logo-placement-bottom-right block block-layout-builder block-inline-blockheader header-103427 clearfix">
                                                     <div class="inner">
-                                                        <div class="header-container">
-                                                            <div class="header-text sub-banner">
-                                                                <div class="header-content align-middle new">
-                                                                    <div class="header-title">
-                                                                        
-                                                                        <div class="field field--name-field-title field--type-string field--label-hidden field--item">
-                                                                            <strong>Smarter AI for All</strong>
-                                                                        </div>
-                                                                        
-                                                                    </div>
-                                                                    <div class="header-sub-title">
-                                                                        
-                                                                        <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
-                                                                            Explore the possibilities as Lenovo takes AI from concept to reality and empowers business to efficiently develop and deploy new AI use cases that drive innovation, digitalization, and growth.
+                                                        <div class="grid">
+                                                            <div class="image-left">
+                                                                <img src="../assets/image/Inside The Tornado Section-ChineseTranslated_2.png" alt="">
+                                                            </div>
+                                                            <div class="grid-text-right">
+                                                                <div class="header-container">
+                                                                    <div class="header-text sub-banner">
+                                                                        <div class="header-content align-middle new">
+                                                                            <div class="header-sub-title">
+                                                                                
+                                                                                <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
+                                                                                    <strong>AI正在掀起一股革新之风，为世界各地的企业 IT 部门注入活力，其潜力是显而易见的。但究竟可以创造多少价值？成本又有多高？这就使得该议题变得更加复杂。</strong>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                            <br>
+                                                                            <div class="header-sub-title">
+                                                                                
+                                                                                <div class="field field--name-field-sub-title field--type-string field--label-hidden field--item">
+                                                                                    CIO 们需要帮助。作为全球性的 IT 领导者，联想正在帮助企业理解AI。我们的 AI 服务实践旨在帮助企业诊断自身的AI准备程度，并根据需求和目标部署合适的解决方案，弥补组织上的缺口。我们必须引导客户采用可以变革其业务的解决方案，并就这些投资的影响如何有效衡量提供建议。
+                                                                                </div>
+                                                                                
+                                                                            </div>
                                                                         </div>
                                                                         
                                                                     </div>
                                                                 </div>
-                                                                
                                                             </div>
                                                         </div>
                                                     </div>
