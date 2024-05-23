@@ -242,6 +242,14 @@
                 margin: unset;
                 text-align: center;
             }
+            .block--type--mosaic--default .block--type--mosaic-item h3.field--name--title {
+                width: 75% !important;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .block--type--mosaic--default .field--name-field-mosaic-item .field--lbbc-mosaic-items {
+                grid-template-columns: unset;
+            }
         }
         .block--type--header .header-text .new .header-sub-title .field--item, .block-inline-blockheader .header-text .new .header-sub-title .field--item {
             max-width: 100%;
@@ -284,7 +292,7 @@
             max-width: 340px;
             max-width: 340px;
             background: red;
-            width: 65%;
+            width: 50%;
             padding-left: 3rem;
         }
         .grid-text-right {
